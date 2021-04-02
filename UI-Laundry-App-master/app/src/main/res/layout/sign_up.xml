@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/rounded_container" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/sign_up" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="365dp"
+        android:fontFamily="@font/regular"
+        android:text="Sign Up"
+        android:textColor="#FFFF"
+        android:textSize="35dp" />
+
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="505dp"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="573dp"
+        android:hint="Username" />
+
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="641dp"
+        android:hint="Password" />
+
+    <Button
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="709dp"
+        android:background="@drawable/rounded_button"
+        android:text="SIGN UP"></Button>
+
+</RelativeLayout>

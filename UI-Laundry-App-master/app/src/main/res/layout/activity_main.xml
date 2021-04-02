@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="219dp"
+        android:layout_height="219dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="406dp"
+        android:fontFamily="@font/bold"
+        android:text="Laundry App"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="491dp"
+        android:fontFamily="@font/regular"
+        android:text="Get ready to make your life easy with single click of app, which makes
+laundry things handle better"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="642dp"
+        android:background="@drawable/rounded_button"
+        android:text="GET STARTED"
+        android:textColor="@color/white" />
+</RelativeLayout>

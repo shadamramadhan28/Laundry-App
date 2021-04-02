@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="125dp"
+        android:fontFamily="@font/bold"
+        android:text="Delivery Detail"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_container"
+        android:layout_marginTop="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_buttom"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_buttom"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/bold"
+        android:text="Pickup Address"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/regular"
+        android:text="Perumahan Pesona Laguna"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/regular"
+        android:text="Blok B8 No. 12A"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/regular"
+        android:text="RT01 RW02"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/bold"
+        android:text="Delivery Address"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/regular"
+        android:text="Perumahan Pesona Laguna"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/regular"
+        android:text="Blok B8 No. 12A"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/regular"
+        android:text="RT01 RW02"
+        android:textSize="20dp"/>
+</RelativeLayout>

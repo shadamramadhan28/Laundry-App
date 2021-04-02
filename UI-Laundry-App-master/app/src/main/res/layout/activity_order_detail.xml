@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="125dp"
+        android:fontFamily="@font/bold"
+        android:text="Order Detail"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_buttom"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/bold"
+            android:text="#AABB123"
+            android:textSize="25dp">
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/bold"
+        android:text="Wash and Iron"
+        android:textColor="@color/red"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="240dp"
+    android:layout_marginLeft="65dp"
+    android:fontFamily="@font/regular"
+    android:text="Date and Time"
+    android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="210dp"
+        android:fontFamily="@font/regular"
+        android:text="29 MAR 2021, 5:12PM"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/regular"
+        android:text="Status"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="285dp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/red"
+        android:text="Confirmed"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/regular"
+        android:text="Pick Up"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="210dp"
+        android:fontFamily="@font/regular"
+        android:text="30 MAR 2021, 5:12 PM"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/regular"
+        android:text="Address"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="180dp"
+        android:fontFamily="@font/regular"
+        android:text="Perumahan Pesona Laguna"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/regular"
+        android:text="Sub Total"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="330dp"
+        android:fontFamily="@font/regular"
+        android:text="$24"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/regular"
+        android:text="Delivery"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="340dp"
+        android:fontFamily="@font/regular"
+        android:text="$1"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/bold"
+        android:text="SUB TOTAL"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="330dp"
+        android:fontFamily="@font/regular"
+        android:text="$25"
+        android:textSize="15dp"/>
+</RelativeLayout>
